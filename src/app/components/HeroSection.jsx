@@ -39,28 +39,26 @@ const HeroSection = () => {
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
             Passionate, evolving web developer with a keen focus on front-end.
           </p>
-          <div>
-            <Link
-              href="/#contact"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:opacity-90 text-white"
-            >
-              Hire Me
-            </Link>
-            <Link
-              href="https://wa.me/60199211059"
-              className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#128c7e] to-[#25d366] hover:opacity-90 text-white"
-            >
-              Whatsapp
-            </Link>
-            <Link
-              href="http://bit.ly/izzat-jamal"
-              className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
-            >
-              <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
-                Download CV
-              </span>
-            </Link>
-          </div>
+          <Link
+            href="/#contact"
+            className="px-6 inline-block py-3 my-2 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-500 to-secondary-500 hover:opacity-90 text-white"
+          >
+            Hire Me
+          </Link>
+          <Link
+            href="https://wa.me/60199211059"
+            className="px-6 inline-block py-3 my-2 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-[#128c7e] to-[#25d366] hover:opacity-90 text-white"
+          >
+            Whatsapp
+          </Link>
+          <Link
+            href="http://bit.ly/izzat-jamal"
+            className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-2"
+          >
+            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
+              Download CV
+            </span>
+          </Link>
         </motion.div>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
