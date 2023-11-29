@@ -8,7 +8,7 @@ const TAB_DATA = [
     title: "Skills",
     id: "skills",
     content: (
-      <div className="grid grid-cols-3 justify-between">
+      <div className="grid sm:grid-cols-3 grid-cols-2 justify-between">
         <ul className="list-disc pl-2">
           <li>HTML</li>
           <li>CSS</li>
@@ -53,7 +53,7 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>Certified Associate in Front-end Development, Talentlabs</li>
+        <li>Certified Associate in Frontend Development, Talentlabs</li>
         <li>Data Science Training Program, 360DigiTMG Malaysia</li>
       </ul>
     ),

@@ -56,7 +56,7 @@ const projectsData = [
     description: "Food Order App with Admin & Users Page",
     image: "/images/projects/foodorderapp.jfif",
     tag: ["All", "Web"],
-    gitUrl: "https://github.com/izzatonline/food-order-app ",
+    gitUrl: "https://github.com/izzatonline/food-order-app",
     previewUrl: "https://food-order-app-teal-pi.vercel.app/",
   },
 ];
